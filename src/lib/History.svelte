@@ -81,6 +81,4 @@
   </table>
 </div>
 
-<hr />
-
 <p class="text-center p-3">Limit is {limit} rows.</p>

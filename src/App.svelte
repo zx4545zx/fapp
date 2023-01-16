@@ -8,7 +8,7 @@
 
 <main>
   <Router>
-    <div class="container mx-auto px-5 pt-5 pb-20">
+    <div class="container mx-auto px-5 pt-5 pb-5">
       <Route path="blog" component={Blog} />
       <Route path="about" component={About} />
       <Route path="/" component={Home} />
