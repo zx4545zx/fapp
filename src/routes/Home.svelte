@@ -30,4 +30,27 @@
   </div>
 </div>
 
+<div class="card w-full bg-neutral text-neutral-content mb-3">
+  <div class="card-body items-center text-center">
+    <h2 class="card-title text-xl">0</h2>
+    <span>THB</span>
+    <div class="card-actions justify-center">
+      <label for="my-modal" class="btn btn-primary">open modal</label>
+    </div>
+  </div>
+</div>
+
 <History limit={10} />
+
+
+<!-- Put this part before </body> tag -->
+<input type="checkbox" id="my-modal" class="modal-toggle" />
+<div class="modal">
+  <div class="modal-box">
+    <h3 class="font-bold text-lg">Congratulations random Internet user!</h3>
+    <p class="py-4">You've been selected for a chance to get one year of subscription to use Wikipedia for free!</p>
+    <div class="modal-action">
+      <label for="my-modal" class="btn">Yay!</label>
+    </div>
+  </div>
+</div>
