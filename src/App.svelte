@@ -13,7 +13,7 @@
       <Route path="about" component={About} />
       <Route path="/" component={Home} />
     </div>
-
+<!-- 
     <div class="btm-nav drop-shadow-md">
       <NavLink to="/">
         <svg
@@ -60,6 +60,6 @@
           /></svg
         >
       </NavLink>
-    </div>
+    </div> -->
   </Router>
 </main>
